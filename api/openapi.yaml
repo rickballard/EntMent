@@ -1,0 +1,17 @@
+﻿openapi: 3.0.3
+info:
+  title: EntMent API (stub)
+  version: 0.1.0
+paths:
+  /match:
+    post:
+      summary: Score candidate mentors for an Ent profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../profiles/schemas/ent.schema.json'
+      responses:
+        "200":
+          description: Ranked results

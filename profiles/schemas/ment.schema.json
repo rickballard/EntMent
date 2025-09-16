@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MentProfile",
+  "type":"object",
+  "required":["handle","email","skills"],
+  "properties": {
+    "handle":{"type":"string"},
+    "email":{"type":"string","format":"email"},
+    "bio":{"type":"string","maxLength": 800},
+    "skills":{"type":"array","items":{"type":"string"}, "minItems":1, "maxItems":12},
+    "verticals":{"type":"array","items":{"type":"string"}, "maxItems":8},
+    "availability":{"type":"string"},
+    "intake_pref":{"enum":["lite","guided","off"]},
+    "anonymity":{"enum":["public_card","pseudonymous","private_until_accept"]}
+  }
+}

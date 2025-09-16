@@ -1,0 +1,25 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EntProfile",
+  "type": "object",
+  "required": ["name","email","stage","summary","needs"],
+  "properties": {
+    "name": {"type":"string"},
+    "email": {"type":"string","format":"email"},
+    "company": {"type":"string"},
+    "stage": {"enum":["idea","prototype","mvp","revenue","growth"]},
+    "summary": {"type":"string","maxLength": 1200},
+    "verticals": {"type":"array","items":{"type":"string"}, "maxItems": 8},
+    "needs": {"type":"array","items":{"type":"string"}, "minItems": 1},
+    "evidence": {"type":"array","items":{"type":"string","format":"uri"}, "maxItems": 6},
+    "timezone": {"type":"string"},
+    "availability_hours_per_week": {"type":"integer","minimum":1,"maximum":80},
+    "preferences": {
+      "type":"object",
+      "properties": {
+        "mentor_skills": {"type":"array","items":{"type":"string"}, "maxItems": 8},
+        "engagement": {"enum":["advisory_equity","hourly","project","cofound","undecided"]}
+      }
+    }
+  }
+}

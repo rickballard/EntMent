@@ -1,4 +1,4 @@
-﻿# EntMent
+# EntMent
 
 **EntMent.com** — a trust-first marketplace that matches entrepreneurs (Ents) with mentors (Ments) and lets successful matches share upside (advisor equity, finder's fee, or a structured instrument).
 
@@ -18,4 +18,9 @@
 4. **Deals**: AI-adjustable legal templates (NDA/MOU/Advisor/SAFE/Finders).
 5. **Forum**: Q&A + cohorts; Discussions first, Discourse later.
 6. **Compliance**: broker-dealer boundary, KYC/AML for payments/escrow, privacy.
+
+<!-- BEGIN: STATUS -->
+### Operational Status
+CoDrift Index: n/a% (n/a)
+<!-- END: STATUS -->
 

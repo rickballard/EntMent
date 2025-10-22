@@ -18,7 +18,6 @@
 4. **Deals**: AI-adjustable legal templates (NDA/MOU/Advisor/SAFE/Finders).
 5. **Forum**: Q&A + cohorts; Discussions first, Discourse later.
 6. **Compliance**: broker-dealer boundary, KYC/AML for payments/escrow, privacy.
-
 <!-- BEGIN: STATUS -->
 ### Operational Status
 CoDrift Index: n/a% (n/a)
